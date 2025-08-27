@@ -3,9 +3,11 @@ const app = express();
 const path = require('path');
 const mongoose = require('mongoose');
 const methodOverride = require('method-override');
+const ejsMate = require('ejs-mate');
 const Campground = require('./models/campground');
 
 //Configurations
+app.engine('ejs', ejsMate)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
 
@@ -81,8 +83,7 @@ app.delete('/campgrounds/:id', async (req, res) => {
     console.log("All CampGrounds Page")
 })
 
-
 //Server 
 app.listen(3000, () => {
-    console.log("Server Running ")
+    console.log("Server Running")
 })

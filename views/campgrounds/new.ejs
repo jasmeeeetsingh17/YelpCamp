@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<% layout('layouts/boilerplate') %>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> New CampGround Page </title>
-</head>
 
-<body>
     <h1> New CampGround Page </h1>
     <form method="post" action="/campgrounds/:id">
         <label for="title"> Title : </label>
@@ -17,8 +10,3 @@
         <button type="submit"> Submit </button>
     </form>
     <h1> Cancel - <a href="/campgrounds"> Click Here</a></h1>
-
-
-</body>
-
-</html>
