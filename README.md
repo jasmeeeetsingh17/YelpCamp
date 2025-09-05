@@ -28,3 +28,16 @@ This project uses **EJS** templating and **Bootstrap** for views.
    ```bash
    git clone https://github.com/your-username/yelpcamp.git
    cd yelpcamp
+
+## Validation
+
+The app uses a Joi schema to validate all campground form submissions.
+For example, price must be a number ≥ 0. If a user submits invalid data, a 400 error is thrown and displayed.
+
+Error Handling
+
+Unknown routes return a 404 “Page NOT FOUND !!” error.
+
+Invalid form submissions return a 400 error with details.
+
+All errors are rendered via the views/error.ejs template.
