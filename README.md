@@ -50,5 +50,31 @@ If a user submits invalid data, a 400 error is thrown and displayed.
    ```bash
    git clone https://github.com/your-username/yelpcamp.git
    cd yelpcamp
+Install dependencies
 
+npm install
+
+
+Set up MongoDB
+
+Make sure MongoDB is running locally on port 27017.
+
+The app uses a database named yelpCamp by default:
+
+mongodb://127.0.0.1:27017/yelpCamp
+
+
+Run the server
+
+node app.js
+
+
+or with nodemon:
+
+npx nodemon app.js
+
+
+Open in your browser
+
+http://localhost:3000
    
