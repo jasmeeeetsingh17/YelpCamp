@@ -43,6 +43,7 @@ If a user submits invalid data, a 400 error is thrown and displayed.
 
 🖼️ All errors are rendered via the views/error.ejs template.
 
+--- 
 
 ## 🚀 Installation
 
@@ -50,6 +51,7 @@ If a user submits invalid data, a 400 error is thrown and displayed.
    ```bash
    git clone https://github.com/your-username/yelpcamp.git
    cd yelpcamp
+   
 2. **Install dependencies**
    ```bash
    npm install
@@ -64,7 +66,7 @@ If a user submits invalid data, a 400 error is thrown and displayed.
 
 4. **Run the server**
    ```bash
-   node app.js
-or with nodemon:
-   ```bash
-npx nodemon app.js
+   node app.js 
+   npx nodemon app.js
+
+---
