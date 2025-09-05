@@ -60,13 +60,14 @@ If a user submits invalid data, a 400 error is thrown and displayed.
 3. **Set up MongoDB**
    Make sure MongoDB is running locally on port 27017.
    The app uses a database named yelpCamp by default:
+   
       ```bash
    mongodb://127.0.0.1:27017/yelpCamp
 
 
-4. **Run the server**
+5. **Run the server**
+   
    ```bash
-   node app.js 
-   npx nodemon app.js
+    nodemon app.js
 
 ---
