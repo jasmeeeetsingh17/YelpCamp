@@ -1,21 +1,27 @@
 # YelpCamp
 
-A simple Node.js + Express + MongoDB CRUD application for managing campgrounds.  
-Users can create, view, edit, and delete campground listings.
+A simple CRUD web application built with **Node.js**, **Express**, and **MongoDB** for managing campground listings.  
+Users can create, view, update, and delete campgrounds.  
+This project uses **EJS** templating and **Bootstrap** for views.
 
 ## Features
-- Create new campgrounds  
-- View all campgrounds  
-- View details of a single campground  
-- Edit existing campgrounds  
-- Delete campgrounds  
+
+- View all campgrounds
+- View details of a single campground
+- Add new campgrounds with validation
+- Edit and update existing campgrounds
+- Delete campgrounds
+- Server-side form validation with Joi
+- Custom error handling (404 pages, validation errors)
 
 ## Tech Stack
-- Node.js  
-- Express.js  
-- MongoDB + Mongoose  
-- EJS (templating engine)  
-- Method-Override (for PUT & DELETE requests)  
+
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/) + [Mongoose](https://mongoosejs.com/)
+- [EJS](https://ejs.co/) templating engine with [ejs-mate](https://www.npmjs.com/package/ejs-mate)
+- [Joi](https://joi.dev/) for validation
+- [Method-Override](https://www.npmjs.com/package/method-override) for PUT & DELETE requests
 
 ## Installation
 1. Clone the repository:
